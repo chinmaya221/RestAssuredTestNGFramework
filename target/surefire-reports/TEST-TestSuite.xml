@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.101" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\RestAssuredFramework\RestAssuredFramework\target\test-classes;D:\RestAssuredFramework\RestAssuredFramework\target\classes;C:\Users\ckdeo\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ckdeo\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ckdeo\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ckdeo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ckdeo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ckdeo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ckdeo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ckdeo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ckdeo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ckdeo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ckdeo\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ckdeo\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ckdeo\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ckdeo\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ckdeo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ckdeo\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ckdeo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ckdeo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ckdeo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ckdeo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ckdeo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ckdeo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\ckdeo\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\ckdeo\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\ckdeo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ckdeo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ckdeo\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\ckdeo\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\ckdeo\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\ckdeo\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\ckdeo\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\ckdeo\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\ckdeo\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\ckdeo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ckdeo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\ckdeo\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\ckdeo\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\ckdeo\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-testng\2.21.0\allure-testng-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\ckdeo\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\ckdeo\AppData\Local\Temp\surefire2561939815149204608\surefirebooter-20230225165359253_3.jar C:\Users\ckdeo\AppData\Local\Temp\surefire2561939815149204608 2023-02-25T16-53-58_834-jvmRun1 surefire-20230225165359253_1tmp surefire_0-20230225165359253_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\RestAssuredFramework\RestAssuredFramework\target\test-classes;D:\RestAssuredFramework\RestAssuredFramework\target\classes;C:\Users\ckdeo\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ckdeo\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ckdeo\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ckdeo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ckdeo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ckdeo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ckdeo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ckdeo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ckdeo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ckdeo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ckdeo\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ckdeo\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ckdeo\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ckdeo\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ckdeo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ckdeo\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ckdeo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ckdeo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ckdeo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ckdeo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ckdeo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ckdeo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\ckdeo\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\ckdeo\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\ckdeo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ckdeo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ckdeo\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\ckdeo\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\ckdeo\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\ckdeo\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\ckdeo\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\ckdeo\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\ckdeo\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\ckdeo\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\ckdeo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ckdeo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\ckdeo\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\ckdeo\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\ckdeo\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-testng\2.21.0\allure-testng-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\ckdeo\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\ckdeo\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ckdeo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\RestAssuredFramework\RestAssuredFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ckdeo\AppData\Local\Temp\surefire2561939815149204608\surefirebooter-20230225165359253_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="BASE_URI" value="https://api.spotify.com"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="ckdeo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\ckdeo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ckdeo\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="D:\RestAssuredFramework\RestAssuredFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ACCOUNT_BASE_URI" value="https://accounts.spotify.com"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/ckdeo/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/ckdeo/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.12\bin;C:\apache-maven-3.8.4\bin;C:\apache-maven-3.8.4\;C:\apache-maven-3.8.4\\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ckdeo\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ckdeo\AppData\Local\Microsoft\WindowsApps;;C:\Users\ckdeo\Desktop;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldBeAbleToGetAPalylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="5.061">
+    <system-out><![CDATA[Method getting called is shouldBeAbleToUpdateAPalylist
+Method getting called is shouldBeAbleToGetAPalylist
+Method getting called is shouldBeAbleToCreateAPalylistWithoutName
+Method getting called is shouldBeAbleToCreateAPalylist
+Thread id for the method shouldBeAbleToCreateAPalylist is 29
+Thread id for the method shouldBeAbleToCreateAPalylistWithoutName is 30
+Thread id for the method shouldBeAbleToGetAPalylist is 31
+Thread id for the method shouldBeAbleToUpdateAPalylist is 32
+............Renewing Token .........
+............Renewing Token .........
+............Renewing Token .........
+............Renewing Token .........
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQBCEKPHC6DLC2zWzqYU72ZeGyqOvWHdcjAQiKLsGS8M5ZR0Sej_Y8R5Gy-OIopovMLNTUllkBo4JlF08988C58n3hhHO-jbUMINteGLv7L2jFZ3WLdTHeDKyMegMNHh5Xo
+				grant_type=refresh_token
+				client_secret=f1600023504f4638adbbcb114f906161
+				client_id=391a061216124bd6aa0d0cf435debb07
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQBCEKPHC6DLC2zWzqYU72ZeGyqOvWHdcjAQiKLsGS8M5ZR0Sej_Y8R5Gy-OIopovMLNTUllkBo4JlF08988C58n3hhHO-jbUMINteGLv7L2jFZ3WLdTHeDKyMegMNHh5Xo
+				grant_type=refresh_token
+				client_secret=f1600023504f4638adbbcb114f906161
+				client_id=391a061216124bd6aa0d0cf435debb07
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQBCEKPHC6DLC2zWzqYU72ZeGyqOvWHdcjAQiKLsGS8M5ZR0Sej_Y8R5Gy-OIopovMLNTUllkBo4JlF08988C58n3hhHO-jbUMINteGLv7L2jFZ3WLdTHeDKyMegMNHh5Xo
+				grant_type=refresh_token
+				client_secret=f1600023504f4638adbbcb114f906161
+				client_id=391a061216124bd6aa0d0cf435debb07
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQBCEKPHC6DLC2zWzqYU72ZeGyqOvWHdcjAQiKLsGS8M5ZR0Sej_Y8R5Gy-OIopovMLNTUllkBo4JlF08988C58n3hhHO-jbUMINteGLv7L2jFZ3WLdTHeDKyMegMNHh5Xo
+				grant_type=refresh_token
+				client_secret=f1600023504f4638adbbcb114f906161
+				client_id=391a061216124bd6aa0d0cf435debb07
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+date: Sat, 25 Feb 2023 11:23:52 GMT
+content-type: application/json
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQBzAOkyh249wzJ-jYArWsstQCGoxjhEMEuGCvgAl15okUCygxHC7IHp2sfEIm04O-3OZDVmr0GtHIQBcZphBn559b4cuiNF2RU;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: d03a55d3caffc152
+content-encoding: gzip
+x-envoy-upstream-service-time: 25
+server: envoy
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQCTRjqyHqUTRc5xSV282XcGz3r4ENzF4IZNqFTTPCSSsbGQZJghuZKjeAZK9J554Fk3S3ESuHDCmFZhCbX3WJfk-ETSOmC8huYxsFAclBLAX7MMB-oxU3vmFsEIj388xdjLuZ-P_30EGSFrJaqeLJppmKjki5odMvdQoOmFdiqRh-Ut5ueEKZaM1V4ilPA6QotnGVVNWXAwGfwu0EazdKhoWLi_JItSa061Vb5gY2YTMUU_fndvQ1qmUFm8yIbLABOtO6IpoPJ_sQ",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+HTTP/1.1 200 OK
+date: Sat, 25 Feb 2023 11:23:52 GMT
+content-type: application/json
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQCAIbFmgCxyzk-5KChRhkK3-o6DAGEvtXa0yu6e3xJtZ2nPsVgsOg4JTmTMcS9jf7iG7Q4teeSUm97hHEm3gz96D3R_J4RHyJE;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: 2b6a46e50604a377
+content-encoding: gzip
+x-envoy-upstream-service-time: 31
+server: envoy
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQABaN6OQ1SkjiygwPr0hjyh__xbh8AHv2gY58XXzBtd-I6AjR0k2GODxng9jWwCcFP28884nPOCMdWLN_rFCc5kmphXnzHzwlRGopxrYX45Z_2NK15vXKhGshq0EMKNLxdQcmP3hUOU3cswR2fLIw6GqQlt1xIhPtA_yPJMyHCFRtLxccREVowhlLt0gw8QKBttZpb2zduYMflAwm2HCf85iC61tinHs9nejWEuOc4xpUDCBvZdtBRoldxLcINS9RWrZuVotlY_pg",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+HTTP/1.1 200 OK
+date: Sat, 25 Feb 2023 11:23:52 GMT
+content-type: application/json
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQACLuCxNqHeEq4rDadQY7AaugJrNF6OHQg69mW9d89e8FXB9PXsLLOS_ETyTHba2OtZ-YAZqnjz5K0MANKvUEUhixnxKcF4dhI;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: b629bf62ba7688a5
+content-encoding: gzip
+x-envoy-upstream-service-time: 27
+server: envoy
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQBm0KyZPNfbzx55F7LjPMPOBZJmO0LZqXGCFm4_zzKJeU_ofkC59FpfaPessnpmrSY9lnePMPobL7FZSCpSiP1P1mai9D1vsaIGfyxHj0h-lNwhUrNHlBjz1leoN7GT3CmmWhSvnKWsMc_stcw3Dv4F9mqolFh0A8qHdCFmJLAzVPL3FiCtakWspcQIog-VLNBe5ddRo4o13b3Qgic9q6pQSQsQbb9F3uHRiizSBckcnTG740-pa4Mn25KpUs_bKGgEO7jkOmRiVA",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+HTTP/1.1 200 OK
+date: Sat, 25 Feb 2023 11:23:52 GMT
+content-type: application/json
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQCIPWHaspjn4Y1XxG2N6pQuJx-4lTlz2DaLBeXaWtiVbETz8U8KEZxaLzDKJzcjAqbBQYBR9Ou3u8SZR3ekKLX5ZN9YuqiTUbw;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: f75c3cde8473f47d
+content-encoding: gzip
+x-envoy-upstream-service-time: 26
+server: envoy
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQDTivzmh-E1JVQmChe7yIs5vgBQIDc-sNauXww3iwrkpRrWeNPoDx-VUau2kZZLAqo98f4AOz1GrZtaPsYO4skAvtJ-ssVkrR7Ea7H1wrpeggV-rV97fg8Z9EugSvPda9HR7VEvujhBnNnoOlTH9Y3jBC_hDgYAlxNszLrXth1vuJXFK2SdfMKwP2yQhHcnOEcGm0k5xUbQzeMQ1HW65637Xd6Nz9VaDK0wpBj0Bd2yLIl9PlLa0cbsmRG2rc847CecJBO7gPQudA",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/1jhSWkM21yjYGrFcv3khAi
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQABaN6OQ1SkjiygwPr0hjyh__xbh8AHv2gY58XXzBtd-I6AjR0k2GODxng9jWwCcFP28884nPOCMdWLN_rFCc5kmphXnzHzwlRGopxrYX45Z_2NK15vXKhGshq0EMKNLxdQcmP3hUOU3cswR2fLIw6GqQlt1xIhPtA_yPJMyHCFRtLxccREVowhlLt0gw8QKBttZpb2zduYMflAwm2HCf85iC61tinHs9nejWEuOc4xpUDCBvZdtBRoldxLcINS9RWrZuVotlY_pg
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-IjBlY2UxNzI0MDQzYjdkMmU0MWQyYTljNWRlMDUzODk5Ig=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Sat, 25 Feb 2023 11:23:54 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "New playlist description",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1jhSWkM21yjYGrFcv3khAi"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/1jhSWkM21yjYGrFcv3khAi",
+    "id": "1jhSWkM21yjYGrFcv3khAi",
+    "images": [
+        
+    ],
+    "name": "My Test Playlist",
+    "owner": {
+        "display_name": "Chinmay",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/k8xts6xyzmdxx6eny1xuogx17"
+        },
+        "href": "https://api.spotify.com/v1/users/k8xts6xyzmdxx6eny1xuogx17",
+        "id": "k8xts6xyzmdxx6eny1xuogx17",
+        "type": "user",
+        "uri": "spotify:user:k8xts6xyzmdxx6eny1xuogx17"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "OCw3YzJmOGE0NWFkMzg0ZjUzODcxODAwNDQyMWUyMjQ0ZDI2MWU3NWFi",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1jhSWkM21yjYGrFcv3khAi/tracks?offset=0&limit=100",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1jhSWkM21yjYGrFcv3khAi"
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/k8xts6xyzmdxx6eny1xuogx17/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQABaN6OQ1SkjiygwPr0hjyh__xbh8AHv2gY58XXzBtd-I6AjR0k2GODxng9jWwCcFP28884nPOCMdWLN_rFCc5kmphXnzHzwlRGopxrYX45Z_2NK15vXKhGshq0EMKNLxdQcmP3hUOU3cswR2fLIw6GqQlt1xIhPtA_yPJMyHCFRtLxccREVowhlLt0gw8QKBttZpb2zduYMflAwm2HCf85iC61tinHs9nejWEuOc4xpUDCBvZdtBRoldxLcINS9RWrZuVotlY_pg
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "New playlist description",
+    "name": "",
+    "public": false
+}
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/1jhSWkM21yjYGrFcv3khAi
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQABaN6OQ1SkjiygwPr0hjyh__xbh8AHv2gY58XXzBtd-I6AjR0k2GODxng9jWwCcFP28884nPOCMdWLN_rFCc5kmphXnzHzwlRGopxrYX45Z_2NK15vXKhGshq0EMKNLxdQcmP3hUOU3cswR2fLIw6GqQlt1xIhPtA_yPJMyHCFRtLxccREVowhlLt0gw8QKBttZpb2zduYMflAwm2HCf85iC61tinHs9nejWEuOc4xpUDCBvZdtBRoldxLcINS9RWrZuVotlY_pg
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "New playlist description",
+    "name": "My Test Playlist",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/k8xts6xyzmdxx6eny1xuogx17/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQABaN6OQ1SkjiygwPr0hjyh__xbh8AHv2gY58XXzBtd-I6AjR0k2GODxng9jWwCcFP28884nPOCMdWLN_rFCc5kmphXnzHzwlRGopxrYX45Z_2NK15vXKhGshq0EMKNLxdQcmP3hUOU3cswR2fLIw6GqQlt1xIhPtA_yPJMyHCFRtLxccREVowhlLt0gw8QKBttZpb2zduYMflAwm2HCf85iC61tinHs9nejWEuOc4xpUDCBvZdtBRoldxLcINS9RWrZuVotlY_pg
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "New playlist description",
+    "name": "My Test Playlist",
+    "public": false
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldBeAbleToCreateAPalylistWithoutName" classname="com.spotify.oauth2.tests.PlaylistTests" time="5.303">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Sat, 25 Feb 2023 11:23:54 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToCreateAPalylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="5.446">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+location: https://api.spotify.com/v1/playlists/1v3NuKAG6qKdxdJ0U5iZRN
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Sat, 25 Feb 2023 11:23:54 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "New playlist description",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1v3NuKAG6qKdxdJ0U5iZRN"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/1v3NuKAG6qKdxdJ0U5iZRN",
+    "id": "1v3NuKAG6qKdxdJ0U5iZRN",
+    "images": [
+        
+    ],
+    "name": "My Test Playlist",
+    "owner": {
+        "display_name": "Chinmay",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/k8xts6xyzmdxx6eny1xuogx17"
+        },
+        "href": "https://api.spotify.com/v1/users/k8xts6xyzmdxx6eny1xuogx17",
+        "id": "k8xts6xyzmdxx6eny1xuogx17",
+        "type": "user",
+        "uri": "spotify:user:k8xts6xyzmdxx6eny1xuogx17"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MSxhYzg2MWM0NjU3ZTg1ZDk0NDY1MDg4YmNkMzJlZjg4OGNhYjY1Yzk5",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1v3NuKAG6qKdxdJ0U5iZRN/tracks",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1v3NuKAG6qKdxdJ0U5iZRN"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToUpdateAPalylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="5.461">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+Content-Length: 0
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Sat, 25 Feb 2023 11:23:54 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+]]></system-out>
+  </testcase>
+</testsuite>
